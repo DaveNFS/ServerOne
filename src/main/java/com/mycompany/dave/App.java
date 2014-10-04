@@ -5,6 +5,10 @@ public class App
 {
     public static void main( String[] args ) throws Exception
     {
+    	
+    	PythonScriptTest.lauchPythonScript();
+    	
+    	/*
         // launch SERVER class first and then CLIENT 
     	
     	Thread serverA = new Thread(new A());
@@ -13,7 +17,25 @@ public class App
     	serverA.start();
     	clientA.start();
     	
+    	*/
+    	
+    	
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     public static class A implements Runnable
     {
